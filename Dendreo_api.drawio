@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T15:11:04.165Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="aa2pLpYMuMC28PljuFXj" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T15:24:44.353Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Jihv5nE2V6lOpZcaIbHw" version="21.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2876" dy="2360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,6 +103,60 @@
         </mxCell>
         <mxCell id="ez0UlG1S_WpzTPGZrJlj-19" value="&lt;font color=&quot;#000000&quot;&gt;Lien entre entreprise et action de formation est appelé LAE&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="620" y="670" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ez0UlG1S_WpzTPGZrJlj-27" value="Formateur" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1050" y="-70" width="600" height="690" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ez0UlG1S_WpzTPGZrJlj-28" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="ez0UlG1S_WpzTPGZrJlj-27">
+          <mxGeometry y="26" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ez0UlG1S_WpzTPGZrJlj-29" value="[&#xa;  {&#xa;    &quot;id_formateur&quot;: &quot;5&quot;,&#xa;    &quot;numero&quot;: &quot;1&quot;,&#xa;    &quot;numero_complet&quot;: &quot;&quot;,&#xa;    &quot;n_secu&quot;: &quot;&quot;,&#xa;    &quot;civilite&quot;: &quot;M.&quot;,&#xa;    &quot;nom&quot;: &quot;Dupond&quot;,&#xa;    &quot;nom_jeune_fille&quot;: &quot;&quot;,&#xa;    &quot;prenom&quot;: &quot;Jacques&quot;,&#xa;    &quot;date_de_naissance&quot;: &quot;1963-09-01&quot;,&#xa;    &quot;lieu_de_naissance&quot;: &quot;LYON&quot;,&#xa;    &quot;nationalite&quot;: &quot;Française&quot;,&#xa;    &quot;situation_familiale&quot;: &quot;-&quot;,&#xa;    &quot;adresse&quot;: &quot;33 rue Bichat&quot;,&#xa;    &quot;code_postal&quot;: &quot;75006&quot;,&#xa;    &quot;ville&quot;: &quot;PARIS&quot;,&#xa;    &quot;profession&quot;: &quot;Formateur Professionnel d&#39;Adultes&quot;,&#xa;    &quot;telephone_perso&quot;: &quot;0676655443&quot;,&#xa;    &quot;telephone_pro&quot;: &quot;0676655443&quot;,&#xa;    &quot;email_perso&quot;: &quot;&quot;,&#xa;    &quot;email_pro&quot;: &quot;contact@cformateur.fr&quot;,&#xa;    &quot;statut&quot;: &quot;travailleur_independant&quot;,&#xa;    &quot;remu_horaire_par_defaut&quot;: &quot;0.00&quot;,&#xa;    &quot;diplomes&quot;: &quot;&quot;,&#xa;    &quot;id_externe&quot;: &quot;&quot;,&#xa;    &quot;id_centre_de_formation&quot;: &quot;1,2&quot;,&#xa;    &quot;ical_url&quot;: &quot;https://public.dendreo.com/demo/ical/nxlfbn57t75shd1q1h3flzsk5hwctyv77Anfhdxsl4tbhrjz8wb1&quot;&#xa;  }&#xa;]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ez0UlG1S_WpzTPGZrJlj-27">
+          <mxGeometry y="34" width="600" height="596" as="geometry" />
+        </mxCell>
+        <mxCell id="ez0UlG1S_WpzTPGZrJlj-30" value="&lt;font color=&quot;#000000&quot;&gt;GET https://pro.dendreo.com/demo/api/formateurs.php&lt;br&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/formateurs.php?id=5&lt;/div&gt;POST https://pro.dendreo.com/demo/api/formateurs.php&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ez0UlG1S_WpzTPGZrJlj-27">
+          <mxGeometry y="630" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ez0UlG1S_WpzTPGZrJlj-31" value="LAF" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1080" y="750" width="470" height="580" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ez0UlG1S_WpzTPGZrJlj-32" value="" style="endArrow=none;startArrow=classic;html=1;rounded=0;endFill=0;" edge="1" parent="ez0UlG1S_WpzTPGZrJlj-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="-130" as="sourcePoint" />
+            <mxPoint x="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="-50" />
+              <mxPoint x="320" y="-50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ez0UlG1S_WpzTPGZrJlj-33" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="ez0UlG1S_WpzTPGZrJlj-31">
+          <mxGeometry y="26" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ez0UlG1S_WpzTPGZrJlj-34" value="[&#xa;    {&#xa;        &quot;id_laf&quot;: &quot;62&quot;,&#xa;        &quot;date_add&quot;: &quot;2021-02-18 10:46:10&quot;,&#xa;        &quot;id_add&quot;: &quot;2&quot;,&#xa;        &quot;date_edit&quot;: &quot;2021-02-18 10:48:44&quot;,&#xa;        &quot;id_edit&quot;: &quot;2&quot;,&#xa;        &quot;id_action_de_formation&quot;: &quot;51&quot;,&#xa;        &quot;id_formateur&quot;: &quot;8&quot;,&#xa;        &quot;referent&quot;: &quot;1&quot;,&#xa;        &quot;statut&quot;: &quot;travailleur_independant&quot;,&#xa;        &quot;statut_bpf&quot;: &quot;interieur&quot;, //interieur, exterieur&#xa;        &quot;id_entreprise&quot;: &quot;6&quot;,&#xa;        &quot;id_contact&quot;: &quot;&quot;,&#xa;        &quot;participant_evaluation_mode&quot;: &quot;&quot;,&#xa;        &quot;tva&quot;: &quot;&quot;,&#xa;        &quot;formateur&quot;: {&#xa;            &quot;id_formateur&quot;: &quot;8&quot;,&#xa;            &quot;date_add&quot;: &quot;2021-02-17 15:26:06&quot;,&#xa;            &quot;id_add&quot;: &quot;2&quot;,&#xa;            &quot;date_edit&quot;: &quot;2022-01-20 10:26:08&quot;,&#xa;            &quot;id_edit&quot;: &quot;0&quot;,&#xa;            &quot;id_delete&quot;: &quot;0&quot;,&#xa;            &quot;user_id&quot;: &quot;&quot;,&#xa;            &quot;anonyme&quot;: &quot;0&quot;,&#xa;            &quot;numero&quot;: &quot;4&quot;,&#xa;            &quot;numero_complet&quot;: &quot;FORM_20210004&quot;,&#xa;            &quot;...&quot;: &quot;&quot;&#xa;        }&#xa;    },&#xa;    &quot;...&quot;: &quot;&quot;&#xa;]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ez0UlG1S_WpzTPGZrJlj-31">
+          <mxGeometry y="34" width="470" height="486" as="geometry" />
+        </mxCell>
+        <mxCell id="ez0UlG1S_WpzTPGZrJlj-35" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;GET https://pro.dendreo.com/demo/api/lafs.php?id_action_de_formation=51&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ez0UlG1S_WpzTPGZrJlj-31">
+          <mxGeometry y="520" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ez0UlG1S_WpzTPGZrJlj-36" value="&lt;font color=&quot;#000000&quot;&gt;Lien entre entreprise et action de formation est appelé LAE&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1270" y="660" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ez0UlG1S_WpzTPGZrJlj-37" value="" style="endArrow=none;startArrow=classic;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="620" as="sourcePoint" />
+            <mxPoint x="1110" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="700" />
+              <mxPoint x="1110" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ez0UlG1S_WpzTPGZrJlj-38" value="&lt;font color=&quot;#000000&quot;&gt;Lien entre entreprise et action de formation est appelé LAE&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="980" y="660" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
