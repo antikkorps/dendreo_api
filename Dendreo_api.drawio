@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T10:26:54.044Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="a-sKOD-FyCzQlgTPEaIx" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T11:46:53.976Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Jhi2wq3wPlRb8wc4CAb3" version="21.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3566" dy="3450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6893" dy="4423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -263,6 +263,9 @@
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-22" value="&lt;div&gt;un contact qui n&#39;est pas rattaché à une entreprise ou qui se forme hors du cadre de l&#39;entreprise&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1600" y="-460" width="470" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.002;entryY=0.963;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-23" target="ez0UlG1S_WpzTPGZrJlj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-23" value="Attention, si votre Participant est un Particulier (personne en recherche d&#39;emploi, indépendant, CPF Auotonme), vous ne devriez pas utiliser cet endpoint, mais plutôt l&#39;endpoint Particuliers.&lt;br&gt;&lt;br&gt;&lt;div&gt;Rattacher le participant à une entreprise&lt;/div&gt;&lt;div&gt;Il existe trois façons de rattacher un participant à une entreprise qui sont évaluées dans l&#39;ordre de préférence suivant :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_entreprise : l&#39;existence est vérifiée&lt;/div&gt;&lt;div&gt;entreprise_raison_sociale : une recherche est effectuée sur le champs raison_sociale, le premier résultat est pris en compte&lt;/div&gt;&lt;div&gt;entreprise_id_externe : une recherche est effectuée sur le champs id_externe, seul un résultat exact est pris en compte&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1200" y="480" width="470" height="306" as="geometry" />
         </mxCell>
@@ -404,6 +407,58 @@
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ez0UlG1S_WpzTPGZrJlj-41" target="OZs6EYXmjg9tI3h3_Jkn-57">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-65" target="OZs6EYXmjg9tI3h3_Jkn-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-65" value="Créneau" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2050" y="-1820" width="600" height="760" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-66" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-65">
+          <mxGeometry y="26" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-67" value="{&#xa;    &quot;id_creneau&quot;: &quot;950&quot;,&#xa;    &quot;id_add&quot;: &quot;5&quot;,&#xa;    &quot;id_edit&quot;: &quot;0&quot;,&#xa;    &quot;id_action_de_formation&quot;: &quot;617&quot;,&#xa;    &quot;id_lam&quot;: &quot;619&quot;,&#xa;    &quot;date_debut&quot;: &quot;2017-01-11 10:00:00&quot;,&#xa;    &quot;date_fin&quot;: &quot;2017-01-11 12:00:00&quot;,&#xa;    &quot;name&quot;: &quot;Théorie&quot;,&#xa;    &quot;icon&quot;: &quot;star&quot;,&#xa;    &quot;id_salle_de_formation&quot;: &quot;4&quot;,&#xa;    &quot;formation_presente&quot;: &quot;1&quot;,&#xa;    &quot;url_connexion&quot;: &quot;https://extranet-demo.dendreo.com/participants/liverooms/5&quot;,&#xa;    &quot;url_connexion_invite&quot;: &quot;https://extranet-demo.dendreo.com/liverooms/xxxx&quot;&#xa;    &quot;lcps&quot;: [&#xa;        {&#xa;            &quot;id_lcp&quot;: &quot;93&quot;,&#xa;            &quot;id_add&quot;: &quot;0&quot;,&#xa;            &quot;id_edit&quot;: &quot;0&quot;,&#xa;            &quot;id_creneau&quot;: &quot;950&quot;,&#xa;            &quot;id_lmp&quot;: &quot;28&quot;,&#xa;            &quot;id_lap&quot;: &quot;25&quot;,&#xa;            &quot;presence&quot;: &quot;1&quot;,&#xa;            &quot;justified&quot;: &quot;0&quot;,&#xa;            &quot;justification&quot;: &quot;&quot;,&#xa;            &quot;lap&quot;: {&#xa;                &quot;id_lap&quot;: &quot;25&quot;,&#xa;                &quot;id_participant&quot;: &quot;2&quot;,&#xa;                &quot;id_entreprise&quot;: &quot;1&quot;,&#xa;                &quot;participant&quot;: {&#xa;                    &quot;id_participant&quot;: &quot;2&quot;,&#xa;                    &quot;nom&quot;: &quot;Duru&quot;,&#xa;                    &quot;prenom&quot;: &quot;Françoise&quot;,&#xa;                    &quot;email&quot;: &quot;&quot;,&#xa;                    &quot;id_entreprise&quot;: &quot;2&quot;,&#xa;                    &quot;particulier&quot;: &quot;0&quot;&#xa;                }&#xa;            }&#xa;        }&#xa;    ]&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-65">
+          <mxGeometry y="34" width="600" height="596" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-68" value="&lt;div&gt;GET https://pro.dendreo.com/demo/api/creneaux.php&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/creneaux.php?id=950&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-65">
+          <mxGeometry y="630" width="600" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-69" target="OZs6EYXmjg9tI3h3_Jkn-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-69" value="&lt;div&gt;Vous pouvez sélectionner les créneaux d&#39;une seule Action de formation via l&#39;attribut id_action_de_formation. De même vous pouvez sélectionner tous les créneaux d&#39;un Lam (Lien Action de formation - Module) via l&#39;attribut id_lam et tous les créneaux d&#39;un Module (quelle que soit l&#39;Action de formation) via l&#39;attribut id_module.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/creneaux.php?id_action_de_formation=12&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Vous pouvez également inclure la liste des formateurs effectuant ces créneaux en ajoutant le paramètre include=formateurs&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/creneaux.php?id_action_de_formation=12&amp;amp;include=formateurs&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Vous pouvez également sélectionner les créneaux d&#39;un seul Participant via l&#39;attribut id_participant ou participant_id_externe en ajoutant le paramètre id_participant=1912 ou participant_id_externe=1912&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/creneaux.php?id_participant=1912&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Vous pouvez également sélectionner les créneaux d&#39;un seul Formateur via l&#39;attribut id_formateur ou formateur_id_externe en ajoutant le paramètre id_formateur=1912 ou formateur_id_externe=1912&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/creneaux.php?id_formateur=1912&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;la liste des participants (lcps) de ce créneau en ajoutant le paramètre include=lcps&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;la liste des formateurs (lcfs) de ce créneau en ajoutant le paramètre include=lcfs (pour émargement formateur)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;le suivi pédagogique (suivi) de ce créneau en ajoutant le paramètre include=suivi&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2930" y="-1810" width="830" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-71" target="ez0UlG1S_WpzTPGZrJlj-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-71" value="&lt;div&gt;LCPS lien entre créneau et participants&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2450" y="-1080" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.004;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-72" target="ez0UlG1S_WpzTPGZrJlj-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1515" y="-2060" />
+              <mxPoint x="2180" y="-2060" />
+              <mxPoint x="2180" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-72" value="&lt;div&gt;LCFS lien entre créneau et formateurs&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1680" y="-2040" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-73" value="&lt;div&gt;suivi lien entre créneau et suivi pédagogique&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1950" y="1190" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.468;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="OZs6EYXmjg9tI3h3_Jkn-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2050" y="-1170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-2296" y="-1228" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
