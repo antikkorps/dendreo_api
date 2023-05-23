@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T13:48:02.761Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rVkIKQuYIbV3nhuw1yR0" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T14:42:51.470Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="SntPVA9w-AA3lIjpLf7d" version="21.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="5915" dy="3854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5357" dy="5822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -172,6 +172,9 @@
         <mxCell id="ez0UlG1S_WpzTPGZrJlj-38" value="&lt;font color=&quot;#000000&quot;&gt;Lien entre formateur et action de formation est appelé LAF&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="980" y="660" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1.007;entryY=0.899;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ez0UlG1S_WpzTPGZrJlj-39" target="OZs6EYXmjg9tI3h3_Jkn-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ez0UlG1S_WpzTPGZrJlj-39" value="Modules" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="350" y="-1940" width="600" height="1610" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
@@ -193,7 +196,7 @@
           <mxGeometry x="-3159" y="276" width="500" height="240" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-0" value="Categorie de Module" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-370" y="-1910" width="600" height="540" as="geometry">
+          <mxGeometry x="-370" y="-2200" width="600" height="540" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -410,7 +413,7 @@
           <mxGeometry x="-1330" y="-1730" width="830" height="520" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-54" value="Catalogue public" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1270" y="-1164.5" width="520" height="580" as="geometry">
+          <mxGeometry x="-1250" y="-1180" width="520" height="580" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -423,12 +426,13 @@
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-58" value="&lt;div&gt;GET https://pro.dendreo.com/demo/api/catalogue_prochaines_sessions.php&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-54">
           <mxGeometry y="520" width="520" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="OZs6EYXmjg9tI3h3_Jkn-57">
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.005;exitY=0.374;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ez0UlG1S_WpzTPGZrJlj-41" target="OZs6EYXmjg9tI3h3_Jkn-57">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="-1340" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="340" y="-1350" />
-              <mxPoint x="-440" y="-1350" />
+              <mxPoint x="340" y="-1339" />
+              <mxPoint x="340" y="-1630" />
+              <mxPoint x="-440" y="-1630" />
               <mxPoint x="-440" y="-887" />
             </Array>
           </mxGeometry>
@@ -437,7 +441,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-65" value="Créneau" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-2050" y="-1820" width="600" height="760" as="geometry">
+          <mxGeometry x="-2010" y="-2118" width="600" height="760" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -459,23 +463,23 @@
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-71" target="ez0UlG1S_WpzTPGZrJlj-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-71" value="&lt;div&gt;LCPS lien entre créneau et participants&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-2450" y="-1080" width="330" height="90" as="geometry" />
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-71" value="&lt;div&gt;LCPS lien entre créneau et participants&lt;/div&gt;&lt;div&gt;&lt;div&gt;Vous pouvez filtrer les résultats en fonction des paramètres suivants :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_action_de_formation, id_lap, id_creneau, id_participant, id_module&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Il est possible d&#39;ajouter à la réponse les informations du Participant via le paramètre include=participant.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/lcps.php?id_action_de_formation=330&amp;amp;include=participant&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Il est également possible d&#39;afficher les données du Module :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/lcps.php?id_action_de_formation=330&amp;amp;include=module&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Enfin, si vous voulez encore plus de détail vous pouvez inclure les informations du créneau :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/lcps.php?id_action_de_formation=330&amp;amp;include=creneau&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Vous pouvez aussi utiliser plusieurs paramètres conjointement : include=participant,module,...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2520" y="-1130" width="400" height="440" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-72" target="OZs6EYXmjg9tI3h3_Jkn-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-72" value="&lt;div&gt;LCFS lien entre créneau et formateurs&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1680" y="-2040" width="330" height="90" as="geometry" />
+          <mxGeometry x="-1640" y="-2338" width="330" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-73" value="&lt;div&gt;suivi lien entre créneau et suivi pédagogique&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-3129" y="1000" width="330" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.468;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="OZs6EYXmjg9tI3h3_Jkn-71">
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.081;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-132" target="OZs6EYXmjg9tI3h3_Jkn-71">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-2050" y="-1170" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-2296" y="-1228" />
+              <mxPoint x="-2297" y="-1228" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -513,6 +517,9 @@
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-90" value="suivi lien entre créneau et suivi pédagogique" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-3140" y="2200" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-91" target="OZs6EYXmjg9tI3h3_Jkn-128">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-91" value="LCPS lien entre créneau et participants" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-3140" y="2380" width="150" height="170" as="geometry" />
@@ -560,13 +567,13 @@
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-106" target="ez0UlG1S_WpzTPGZrJlj-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2320" y="-2045" />
-              <mxPoint x="2320" y="522" />
+              <mxPoint x="2320" y="-2261" />
+              <mxPoint x="2320" y="523" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-106" value="&lt;div&gt;LCFS lien entre créneau et formateurs&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-390" y="-2090" width="330" height="90" as="geometry" />
+          <mxGeometry x="-370" y="-2306" width="330" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-103" target="OZs6EYXmjg9tI3h3_Jkn-106">
           <mxGeometry relative="1" as="geometry" />
@@ -622,24 +629,24 @@
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.345;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-118" target="ez0UlG1S_WpzTPGZrJlj-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-202" y="-660" />
-              <mxPoint x="-493" y="-660" />
+              <mxPoint x="-202" y="-620" />
+              <mxPoint x="-493" y="-620" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-118" value="LAP" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-320" y="-1170" width="470" height="440" as="geometry">
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-118" value="LMP" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-320" y="-1620" width="470" height="950" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-120" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-118">
           <mxGeometry y="26" width="470" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-121" value="A Trouver" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-118">
-          <mxGeometry y="34" width="470" height="286" as="geometry" />
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-121" value="[&#xa;    {&#xa;        &quot;id_lmp&quot;: &quot;3093&quot;,&#xa;        &quot;date_add&quot;: &quot;2019-11-28 16:31:54&quot;,&#xa;        &quot;id_add&quot;: &quot;0&quot;,&#xa;        &quot;date_edit&quot;: &quot;2019-12-03 09:58:49&quot;,&#xa;        &quot;id_edit&quot;: &quot;0&quot;,&#xa;        &quot;id_lam&quot;: &quot;674&quot;,&#xa;        &quot;id_lap&quot;: &quot;2356&quot;,&#xa;        &quot;status&quot;: &quot;0&quot;,&#xa;        &quot;prix&quot;: &quot;100.0000&quot;,&#xa;        &quot;prix_personnalise&quot;: &quot;0&quot;,&#xa;        &quot;total_heures_presence&quot;: &quot;0.000&quot;,&#xa;        &quot;total_heures_absence&quot;: &quot;0.000&quot;,&#xa;        &quot;duree_de_validite&quot;: &quot;&quot;,&#xa;        &quot;recyclage_id&quot;: &quot;&quot;,&#xa;        &quot;custom_properties&quot;: &quot;&quot;,&#xa;        &quot;lms_progression&quot;: &quot;&quot;,&#xa;        &quot;lms_started_at&quot;: &quot;&quot;,&#xa;        &quot;lms_last_access_at&quot;: &quot;&quot;,&#xa;        &quot;lms_completed_at&quot;: &quot;&quot;,&#xa;        &quot;duree_de_validite&quot;: &quot;&quot;,&#xa;        &quot;lms_tempspasse&quot;: &quot;&quot;,&#xa;        &quot;master_lmp_id&quot;: &quot;&quot;,&#xa;        &quot;is_thinkific_conflicted&quot;: &quot;0&quot;,&#xa;        &quot;moyenne_satisfaction&quot;: &quot;&quot;,&#xa;        &quot;satisfaction_nb_avis&quot;: &quot;0&quot;,&#xa;        &quot;is_evaluated&quot;: &quot;1&quot;,&#xa;        &quot;has_pre_auto_positionnements&quot;: &quot;0&quot;,&#xa;        &quot;has_post_auto_positionnements&quot;: &quot;0&quot;,&#xa;        &quot;evaluation_count&quot;: &quot;1&quot;,&#xa;        &quot;budget&quot;: &quot;&quot;,&#xa;        &quot;master_lmp&quot;: &quot;&quot;&#xa;    },&#xa;    {&#xa;        &quot;id_lmp&quot;: &quot;3094&quot;,&#xa;        &quot;date_add&quot;: &quot;2019-11-28 16:31:58&quot;,&#xa;        &quot;id_add&quot;: &quot;0&quot;,&#xa;        &quot;date_edit&quot;: &quot;2019-12-03 09:59:12&quot;,&#xa;        &quot;id_edit&quot;: &quot;0&quot;,&#xa;        &quot;id_lam&quot;: &quot;674&quot;,&#xa;        &quot;id_lap&quot;: &quot;2357&quot;,&#xa;        &quot;status&quot;: &quot;0&quot;,&#xa;        &quot;prix&quot;: &quot;150.0000&quot;,&#xa;        &quot;prix_personnalise&quot;: &quot;1&quot;,&#xa;        &quot;total_heures_presence&quot;: &quot;4.000&quot;,&#xa;        &quot;total_heures_absence&quot;: &quot;0.000&quot;,&#xa;        &quot;duree_de_validite&quot;: &quot;&quot;,&#xa;        &quot;recyclage_id&quot;: &quot;&quot;,&#xa;        ...&#xa;    }&#xa;]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-118">
+          <mxGeometry y="34" width="470" height="796" as="geometry" />
         </mxCell>
-        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-122" value="Lien entre action de formation et participant" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-118">
-          <mxGeometry y="320" width="470" height="120" as="geometry" />
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-122" value="Lien entre module et participant&lt;br&gt;lister les inscriptions aux modules&lt;br&gt;GET https://pro.dendreo.com/demo/api/lmps.php?id_action_de_formation=330&lt;br&gt;afficher une inscription à un module&lt;br&gt;GET https://pro.dendreo.com/demo/api/lmps.php?id=3093&lt;br&gt;POST https://pro.dendreo.com/demo/api/lmps.php" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-118">
+          <mxGeometry y="830" width="470" height="120" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.598;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-121" target="ez0UlG1S_WpzTPGZrJlj-41">
           <mxGeometry relative="1" as="geometry" />
@@ -666,6 +673,152 @@
               <mxPoint x="-720" y="1160" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-128" value="&lt;div&gt;Un LCP représente le lien entre le Créneau d&#39;un Module de formation et un participant, au sein d&#39;une Action De Formation&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;En d&#39;autres termes, c&#39;est un lien entre un Lap, un LMP et un Créneau&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0808&quot;&gt;Note importante : tous les LCPs sont créés en même temps que les LAPs. C&#39;est à dire que dès qu&#39;un Participant est ajouté à une Action de Formation (LAP), tous les LMP relatifs aux Modules (LAM) sont créés et tous les LCP relatifs aux Créneaux de ces Modules également.&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2895" y="2320" width="425" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-130" value="LCP" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2010" y="-1310" width="600" height="760" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-131" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-130">
+          <mxGeometry y="26" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-132" value="[&#xa;    {&#xa;        &quot;id_lcp&quot;: &quot;7483&quot;,&#xa;        &quot;date_add&quot;: &quot;2012-12-18 17:33:19&quot;,&#xa;        &quot;id_add&quot;: &quot;2&quot;,&#xa;        &quot;date_edit&quot;: &quot;2019-02-06 17:55:39&quot;,&#xa;        &quot;id_edit&quot;: &quot;2&quot;,&#xa;        &quot;id_creneau&quot;: &quot;873&quot;,&#xa;        &quot;id_lmp&quot;: &quot;1858&quot;,&#xa;        &quot;id_lap&quot;: &quot;1607&quot;,&#xa;        &quot;presence&quot;: &quot;1&quot;,&#xa;        &quot;total_heures_presence&quot;: &quot;2.5&quot;,&#xa;        &quot;total_heures_absence&quot;: &quot;0&quot;,&#xa;        &quot;justified&quot;: &quot;0&quot;,&#xa;        &quot;justification&quot;: &quot;&quot;&#xa;    }&#xa;]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-130">
+          <mxGeometry y="34" width="600" height="596" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-133" value="&lt;div&gt;GET https://pro.dendreo.com/demo/api/lcps.php?id_action_de_formation=330&lt;br&gt;&lt;/div&gt;&lt;div&gt;Afficher la présence à un créneau d&#39;un participant&lt;/div&gt;&lt;div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/lcps.php?id=7483&lt;/div&gt;&lt;div&gt;Modifier la présence à un créneau d&#39;un participant&lt;/div&gt;&lt;div&gt;POST https://pro.dendreo.com/demo/api/lcps.php&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-130">
+          <mxGeometry y="630" width="600" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1.009;entryY=0.762;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-133" target="OZs6EYXmjg9tI3h3_Jkn-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1410" y="-1084" />
+              <mxPoint x="-1360" y="-1084" />
+              <mxPoint x="-1360" y="-1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="OZs6EYXmjg9tI3h3_Jkn-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1410" y="-580" as="sourcePoint" />
+            <mxPoint x="-840" y="1430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1250" y="-580" />
+              <mxPoint x="-1250" y="1110" />
+              <mxPoint x="-829" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.003;entryY=0.74;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-136" target="OZs6EYXmjg9tI3h3_Jkn-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-136" value="&lt;div&gt;Les Évaluations se font à 2 niveaux : - au niveau de chaque Module auquel le Participant est inscrit pour une ADF (Lmp) - au niveau des Compétences de chaque Module auquel le Participant est inscrit pour une ADF&lt;/div&gt;&lt;div&gt;&lt;div&gt;Lister les Évaluations des Modules&lt;/div&gt;&lt;div&gt;Vous pouvez filtrer les résultats en fonction des paramètres suivants :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id, id_lmp, id_action_de_formation, id_participant, id_module&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Il est possible d&#39;ajouter à la réponse les informations du Participant via le paramètre include=participant.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/evaluations?id_action_de_formation=330&amp;amp;include=participant&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Il est également possible d&#39;afficher les évaluations liées aux compétences :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/evaluations.php?id_action_de_formation=293&amp;amp;include=competences,participant&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1890" y="-3110" width="450" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-137" value="Evaluation" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1350" y="-4250" width="600" height="1750" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-138" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-137">
+          <mxGeometry y="26" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-139" value="[&#xa;    {&#xa;        &quot;id_lmp&quot;: &quot;1369&quot;,&#xa;        &quot;id_action_de_formation&quot;: &quot;293&quot;,&#xa;        &quot;id_module&quot;: &quot;15&quot;,&#xa;        &quot;id_participant&quot;: &quot;113&quot;,&#xa;        &quot;id&quot;: &quot;107&quot;,&#xa;        &quot;evaluator_type&quot;: &quot;Models\\Formateur&quot;,&#xa;        &quot;evaluator_id&quot;: &quot;6&quot;,&#xa;        &quot;note&quot;: &quot;12.00&quot;,&#xa;        &quot;amplitude_notation&quot;: &quot;20&quot;,&#xa;        &quot;appreciation&quot;: &quot;qsdqsd&quot;,&#xa;        &quot;validated&quot;: &quot;1&quot;,&#xa;        &quot;created_at&quot;: &quot;2022-12-02 10:40:07&quot;,&#xa;        &quot;created_by_type&quot;: &quot;&quot;,&#xa;        &quot;created_by_id&quot;: &quot;&quot;,&#xa;        &quot;updated_at&quot;: &quot;2022-12-02 10:40:19&quot;,&#xa;        &quot;updated_by_type&quot;: &quot;Models\\SuperAdministrateur&quot;,&#xa;        &quot;updated_by_id&quot;: &quot;18&quot;,&#xa;        &quot;deleted_at&quot;: &quot;&quot;,&#xa;        &quot;deleted_by_type&quot;: &quot;&quot;,&#xa;        &quot;deleted_by_id&quot;: &quot;&quot;,&#xa;        &quot;competences&quot;: [&#xa;            {&#xa;                &quot;id&quot;: &quot;16&quot;,&#xa;                &quot;label&quot;: &quot;Comp A&quot;,&#xa;                &quot;evaluation&quot;: {&#xa;                    &quot;id&quot;: &quot;61&quot;,&#xa;                    &quot;evaluator_type&quot;: &quot;Models\\Formateur&quot;,&#xa;                    &quot;evaluator_id&quot;: &quot;6&quot;,&#xa;                    &quot;note&quot;: &quot;14.00&quot;,&#xa;                    &quot;amplitude_notation&quot;: &quot;20&quot;,&#xa;                    &quot;appreciation&quot;: &quot;qsdqsd&quot;,&#xa;                    &quot;status&quot;: &quot;non-acquis&quot;,&#xa;                    &quot;created_at&quot;: &quot;2022-12-02T09:40:10.000000Z&quot;,&#xa;                    &quot;created_by_type&quot;: &quot;Models\\SuperAdministrateur&quot;,&#xa;                    &quot;created_by_id&quot;: &quot;18&quot;,&#xa;                    &quot;updated_at&quot;: &quot;2022-12-02T09:40:16.000000Z&quot;,&#xa;                    &quot;updated_by_type&quot;: &quot;Models\\SuperAdministrateur&quot;,&#xa;                    &quot;updated_by_id&quot;: &quot;18&quot;&#xa;                }&#xa;            },&#xa;            {&#xa;                &quot;id&quot;: &quot;17&quot;,&#xa;                &quot;label&quot;: &quot;Comp B&quot;,&#xa;                &quot;evaluation&quot;: {&#xa;                    &quot;id&quot;: &quot;62&quot;,&#xa;                    &quot;evaluator_type&quot;: &quot;Models\\Formateur&quot;,&#xa;                    &quot;evaluator_id&quot;: &quot;6&quot;,&#xa;                    &quot;note&quot;: &quot;&quot;,&#xa;                    &quot;amplitude_notation&quot;: &quot;20&quot;,&#xa;                    &quot;appreciation&quot;: &quot;&quot;,&#xa;                    &quot;status&quot;: &quot;en-cours&quot;,&#xa;                    &quot;created_at&quot;: &quot;2022-12-02T09:40:17.000000Z&quot;,&#xa;                    &quot;created_by_type&quot;: &quot;Models\\SuperAdministrateur&quot;,&#xa;                    &quot;created_by_id&quot;: &quot;18&quot;,&#xa;                    &quot;updated_at&quot;: &quot;2022-12-02T09:40:17.000000Z&quot;,&#xa;                    &quot;updated_by_type&quot;: &quot;Models\\SuperAdministrateur&quot;,&#xa;                    &quot;updated_by_id&quot;: &quot;18&quot;&#xa;                }&#xa;            }&#xa;        ],&#xa;        &quot;participant&quot;: {&#xa;            &quot;id_participant&quot;: &quot;113&quot;,&#xa;            &quot;date_add&quot;: &quot;2021-12-24 15:16:11&quot;,&#xa;            &quot;id_add&quot;: &quot;0&quot;,&#xa;            &quot;date_edit&quot;: &quot;2022-12-13 09:51:17&quot;,&#xa;            &quot;id_edit&quot;: &quot;0&quot;,&#xa;            &quot;civilite&quot;: &quot;M.&quot;,&#xa;            &quot;nom&quot;: &quot;Adama&quot;,&#xa;            &quot;prenom&quot;: &quot;Lee&quot;,&#xa;            &quot;email&quot;: &quot;lee@adama.com&quot;,&#xa;            &quot;commentaires&quot;: &quot;&quot;,&#xa;            &quot;infos_adf&quot;: &quot;rddfg&quot;,&#xa;            &quot;portable&quot;: &quot;0102030405&quot;,&#xa;            &quot;fonction&quot;: &quot;CEO&quot;,&#xa;            &quot;statut_bpf&quot;: &quot;salarie&quot;,&#xa;            &quot;niveau_diplome&quot;: &quot;&quot;,&#xa;            &quot;date_de_naissance&quot;: &quot;&quot;,&#xa;            &quot;ville_naissance&quot;: &quot;&quot;,&#xa;            &quot;departement_naissance&quot;: &quot;&quot;,&#xa;            &quot;adresse&quot;: &quot;&quot;,&#xa;            &quot;code_postal&quot;: &quot;&quot;,&#xa;            &quot;ville&quot;: &quot;&quot;,&#xa;            &quot;pays&quot;: &quot;&quot;,&#xa;            &quot;id_entreprise&quot;: &quot;34&quot;,&#xa;            &quot;particulier&quot;: &quot;0&quot;,&#xa;            &quot;catalogue_entreprise&quot;: &quot;&quot;,&#xa;            &quot;catalogue_entreprise_adresse&quot;: &quot;&quot;,&#xa;            &quot;catalogue_entreprise_cp&quot;: &quot;&quot;,&#xa;            &quot;catalogue_entreprise_ville&quot;: &quot;&quot;,&#xa;            &quot;ogdpc_adeli&quot;: &quot;&quot;,&#xa;            &quot;ogdpc_rpps&quot;: &quot;&quot;,&#xa;            &quot;id_externe&quot;: &quot;&quot;,&#xa;            &quot;moodle_user_id&quot;: &quot;&quot;,&#xa;            &quot;thinkific_user_id&quot;: &quot;&quot;,&#xa;            &quot;dokeos_user_id&quot;: &quot;1234&quot;,&#xa;            &quot;ogdpc_id_specialite&quot;: &quot;0&quot;,&#xa;            &quot;mode_dexercice_dominant&quot;: &quot;&quot;,&#xa;            &quot;global_visible&quot;: &quot;1&quot;,&#xa;            &quot;id_contact&quot;: &quot;0&quot;,&#xa;            &quot;responsable_type&quot;: &quot;&quot;,&#xa;            &quot;responsable_id&quot;: &quot;&quot;,&#xa;            &quot;newsletter_optin&quot;: &quot;0&quot;,&#xa;            &quot;message_extranet&quot;: &quot;&quot;,&#xa;            &quot;nom_naissance&quot;: &quot;&quot;,&#xa;            &quot;pays_naissance&quot;: &quot;&quot;,&#xa;            &quot;num_forprev&quot;: &quot;&quot;,&#xa;            &quot;language_code&quot;: &quot;en&quot;&#xa;        }&#xa;    }&#xa;]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-137">
+          <mxGeometry y="34" width="600" height="1586" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-140" value="&lt;div&gt;Lister les évaluations des modules&lt;/div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/evaluations.php?id_action_de_formation=293&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ajouter l&#39;évaluation d&#39;un participant sur un module ou sur une compétence&lt;/div&gt;&lt;div&gt;POST https://pro.dendreo.com/demo/api/evaluations&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-137">
+          <mxGeometry y="1620" width="600" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.003;entryY=0.87;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-121" target="OZs6EYXmjg9tI3h3_Jkn-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-420" y="-1188" />
+              <mxPoint x="-420" y="-2836" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-148" value="Financeurs (externes)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="910" y="-3250" width="600" height="380" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-149" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-148">
+          <mxGeometry y="26" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-150" value="[&#xa;  {&#xa;      &quot;id_opca&quot;: &quot;2&quot;,&#xa;      &quot;opca&quot;: &quot;1&quot;,&#xa;      &quot;raison_sociale&quot;: &quot;AGEFOS-PME PACA&quot;,&#xa;      &quot;description&quot;: &quot;FAF des petites et moyennes entreprises&quot;,&#xa;      &quot;cible&quot;: &quot;&quot;,&#xa;      &quot;site_internet&quot;: &quot;http://www.agefos-pme.org&quot;,&#xa;      &quot;adresse&quot;: &quot;146 RUE PARADIS\r\nCS 30002&quot;,&#xa;      &quot;code_postal&quot;: &quot;13294&quot;,&#xa;      &quot;ville&quot;: &quot;MARSEILLE CEDEX 06&quot;,&#xa;      &quot;telephone&quot;: &quot;0488445160&quot;,&#xa;      &quot;pays&quot;: &quot;France&quot;&#xa;  }&#xa;]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-148">
+          <mxGeometry y="34" width="600" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-151" value="&lt;div&gt;Trier les financeurs sur la raison sociale&lt;/div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/financeurs.php?raison_sociale=anfa&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/financeurs.php&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/financeurs.php?id=1&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-148">
+          <mxGeometry y="260" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.415;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-152" target="OZs6EYXmjg9tI3h3_Jkn-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-152" value="Financement" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1560" y="-3040" width="600" height="480" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-153" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-152">
+          <mxGeometry y="26" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-154" value="[&#xa;  {&#xa;    &quot;id_financement&quot;: &quot;790&quot;,&#xa;    &quot;id_add&quot;: &quot;0&quot;,&#xa;    &quot;id_edit&quot;: &quot;0&quot;,&#xa;    &quot;id_delete&quot;: &quot;0&quot;,&#xa;    &quot;id_action_de_formation&quot;: &quot;39&quot;,&#xa;    &quot;type&quot;: &quot;opca&quot;,&#xa;    &quot;categorie&quot;: &quot;&quot;,&#xa;    &quot;id_finance&quot;: &quot;522&quot;,&#xa;    &quot;id_financeur&quot;: &quot;1&quot;,&#xa;    &quot;montant_finance&quot;: &quot;2000&quot;,&#xa;    &quot;id_categorie_produit&quot;: &quot;1&quot;,&#xa;    &quot;montant_finance_hors_formation&quot;: &quot;0&quot;,&#xa;    &quot;montant_refacture&quot;: &quot;0&quot;,&#xa;    &quot;numero_dossier&quot;: &quot;&quot;,&#xa;    &quot;montant_total_finance&quot;: &quot;2000&quot;,&#xa;    &quot;montant_total_facture&quot;: &quot;2000&quot;,&#xa;    &quot;montant_total_paye&quot;: &quot;0&quot;&#xa;  }&#xa;]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-152">
+          <mxGeometry y="34" width="600" height="306" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-155" value="&lt;div&gt;GET https://pro.dendreo.com/demo/api/financements.php&lt;br&gt;&lt;/div&gt;&lt;div&gt;afficher un financement&lt;/div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/financements.php?id=790&lt;br&gt;&lt;/div&gt;&lt;div&gt;ajouter / éditer un financement&lt;/div&gt;&lt;div&gt;POST https://pro.dendreo.com/demo/api/financements.php&lt;br&gt;&lt;/div&gt;&lt;div&gt;Supprimer un financement&lt;/div&gt;&lt;div&gt;&lt;div&gt;DELETE https://pro.dendreo.com/demo/api/financements.php&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-152">
+          <mxGeometry y="340" width="600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-150" target="OZs6EYXmjg9tI3h3_Jkn-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.237;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ez0UlG1S_WpzTPGZrJlj-7" target="OZs6EYXmjg9tI3h3_Jkn-155">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="122" />
+              <mxPoint x="990" y="570" />
+              <mxPoint x="2350" y="570" />
+              <mxPoint x="2350" y="-2510" />
+              <mxPoint x="1670" y="-2510" />
+              <mxPoint x="1670" y="-2530" />
+              <mxPoint x="1702" y="-2530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-159" value="Facture" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1780" y="-3640" width="600" height="530" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-160" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-159">
+          <mxGeometry y="26" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-161" value="[&#xa;  {&#xa;    &quot;id_facture&quot;: &quot;19&quot;,&#xa;    &quot;date_emission&quot;: &quot;2016-10-09 10:42:59&quot;,&#xa;    &quot;date_paiement&quot;: &quot;0000-00-00 00:00:00&quot;,&#xa;    &quot;moyen_paiement&quot;: &quot;&quot;,&#xa;    &quot;numero&quot;: &quot;1&quot;,&#xa;    &quot;numero_complet&quot;: &quot;&quot;,&#xa;    &quot;id_entreprise&quot;: &quot;876&quot;,&#xa;    &quot;id_opca&quot;: &quot;0&quot;,&#xa;    &quot;id_participant&quot;: &quot;0&quot;,&#xa;    &quot;montant_total_ht&quot;: &quot;870.00&quot;,&#xa;    &quot;montant_total_ttc&quot;: &quot;1044&quot;,&#xa;    &quot;raison_sociale&quot;: &quot;EDF&quot;,&#xa;    &quot;adresse&quot;: &quot;28 rue Bigleuil&quot;,&#xa;    &quot;code_postal&quot;: &quot;75006&quot;,&#xa;    &quot;ville&quot;: &quot;Paris&quot;,&#xa;    &quot;pays&quot;: &quot;FRANCE&quot;,&#xa;    &quot;remarque&quot;: &quot;&quot;,&#xa;    &quot;id_parent&quot;: &quot;0&quot;,&#xa;    &quot;id_avoir&quot;: &quot;0&quot;,&#xa;    &quot;id_centre_de_formation&quot;: &quot;0&quot;,&#xa;    &quot;pourcentage_paiement&quot;: &quot;100&quot;,&#xa;    &quot;public_url&quot;: &quot;https://public.dendreo.com/xxxxx/facture/...&quot;&#xa;  }&#xa;]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-159">
+          <mxGeometry y="34" width="600" height="376" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-162" value="&lt;div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/factures.php&lt;/div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/factures.php?id=19&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-159">
+          <mxGeometry y="410" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-163" value="Pour télécharger la facture, utilisez le lien contenu dans la propriété &#39;public_url&#39;.&lt;br&gt;&lt;div&gt;Vous pouvez ajouter les paramètres suivants à cette URL :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;pdf (0 ou 1) pour avoir le fichier original ou le fichier généré en pdf&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;inline=1 pour que le fichier soit affiché &#39;inline&#39;, au lieu d&#39;être téléchargé. Cela signifie qu&#39;il apparaitra directement dans le navigateur client (sous reserve que ce dernier sache afficher les pdf par exemple)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://public.dendreo.com/demo/facture/82wr61vkha?pdf=1&amp;amp;inline=1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Export comptable:&amp;nbsp;GET https://pro.dendreo.com/demo/api/export_comptable.php?format_export=sage_pnm&amp;amp;journal=ventes&amp;amp;factures=614,615,616&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1270" y="-3600" width="490" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-167" value="Règlement" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2570" y="-3650" width="600" height="410" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-168" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-167">
+          <mxGeometry y="26" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-169" value="[&#xa;  [&#xa;    {&#xa;        &quot;id&quot;: &quot;372&quot;,&#xa;        &quot;facture_id&quot;: &quot;3&quot;,&#xa;        &quot;date&quot;: &quot;2021-05-27 00:00:00&quot;,&#xa;        &quot;exported_at&quot;: &quot;&quot;,&#xa;        &quot;method&quot;: &quot;&quot;,&#xa;        &quot;reference&quot;: &quot;&quot;,&#xa;        &quot;amount&quot;: &quot;1000.0000&quot;,&#xa;        &quot;account_id&quot;: &quot;1&quot;,&#xa;        &quot;created_at&quot;: &quot;2021-05-19 11:16:02&quot;,&#xa;        &quot;updated_at&quot;: &quot;2021-06-15 15:48:17&quot;,&#xa;        &quot;deleted_at&quot;: &quot;&quot;&#xa;    }&#xa;]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-167">
+          <mxGeometry y="34" width="600" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-170" value="&lt;div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/reglements.php?id=372&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;POST https://pro.dendreo.com/demo/api/reglements.php&lt;br&gt;&lt;/div&gt;&lt;div&gt;Supprimer un règlement si il est non exporté:&lt;/div&gt;&lt;div&gt;DELETE https://pro.dendreo.com/demo/api/reglements.php&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-167">
+          <mxGeometry y="290" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.432;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-169" target="OZs6EYXmjg9tI3h3_Jkn-161">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
