@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T14:42:51.470Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="SntPVA9w-AA3lIjpLf7d" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T14:58:20.613Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="LgEX1tDnBuy-UXGcIS2d" version="21.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="5357" dy="5822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="12868" dy="10023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -819,6 +819,65 @@
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.432;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-169" target="OZs6EYXmjg9tI3h3_Jkn-161">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-173" value="Email" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-380" y="-4460" width="600" height="730" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-174" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-173">
+          <mxGeometry y="26" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-175" value="[&#xa;    {&#xa;        &quot;id_mail&quot;: &quot;1&quot;,&#xa;        &quot;cible&quot;: &quot;&quot;,&#xa;        &quot;id_entite&quot;: &quot;0&quot;,&#xa;        &quot;id_action_de_formation&quot;: &quot;0&quot;,&#xa;        &quot;id_mail_type&quot;: &quot;0&quot;,&#xa;        &quot;id_add&quot;: &quot;0&quot;,&#xa;        &quot;date_add&quot;: &quot;0000-00-00 00:00:00&quot;,&#xa;        &quot;from_email&quot;: &quot;nom@domaine.fr&quot;,&#xa;        &quot;domain&quot;: &quot;dendreo.com&quot;,&#xa;        &quot;title&quot;: &quot;Intitule&quot;,&#xa;        &quot;http_response_code&quot;: &quot;200&quot;,&#xa;        &quot;http_error_msg&quot;: &quot;&quot;,&#xa;        &quot;destinataires&quot;: [&#xa;            {&#xa;                &quot;id&quot;: &quot;1&quot;,&#xa;                &quot;id_mail&quot;: &quot;1&quot;,&#xa;                &quot;email&quot;: &quot;nom@domaine.fr&quot;,&#xa;                &quot;type_destinataire&quot;: &quot;to&quot;,&#xa;                &quot;event&quot;: &quot;&quot;,&#xa;                &quot;code&quot;: &quot;0&quot;,&#xa;                &quot;error&quot;: &quot;&quot;,&#xa;                &quot;notification&quot;: &quot;&quot;,&#xa;                &quot;reason&quot;: &quot;&quot;,&#xa;                &quot;description&quot;: &quot;&quot;&#xa;            },&#xa;            {&#xa;                &quot;id&quot;: &quot;2&quot;,&#xa;                &quot;id_mail&quot;: &quot;1&quot;,&#xa;                &quot;email&quot;: &quot;nom@domaine.fr&quot;,&#xa;                &quot;type_destinataire&quot;: &quot;cc&quot;,&#xa;                &quot;event&quot;: &quot;&quot;,&#xa;                &quot;code&quot;: &quot;0&quot;,&#xa;                &quot;error&quot;: &quot;&quot;,&#xa;                &quot;notification&quot;: &quot;&quot;,&#xa;                &quot;reason&quot;: &quot;&quot;,&#xa;                &quot;description&quot;: &quot;&quot;&#xa;            }&#xa;        ]&#xa;    },&#xa;]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-173">
+          <mxGeometry y="34" width="600" height="606" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-176" value="&lt;div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/emails.php?key=123456&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-173">
+          <mxGeometry y="640" width="600" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-178" value="Checklist" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="-4460" width="600" height="730" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-179" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-178">
+          <mxGeometry y="26" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-180" value="[&#xa;    {&#xa;        &quot;id_mail&quot;: &quot;1&quot;,&#xa;        &quot;cible&quot;: &quot;&quot;,&#xa;        &quot;id_entite&quot;: &quot;0&quot;,&#xa;        &quot;id_action_de_formation&quot;: &quot;0&quot;,&#xa;        &quot;id_mail_type&quot;: &quot;0&quot;,&#xa;        &quot;id_add&quot;: &quot;0&quot;,&#xa;        &quot;date_add&quot;: &quot;0000-00-00 00:00:00&quot;,&#xa;        &quot;from_email&quot;: &quot;nom@domaine.fr&quot;,&#xa;        &quot;domain&quot;: &quot;dendreo.com&quot;,&#xa;        &quot;title&quot;: &quot;Intitule&quot;,&#xa;        &quot;http_response_code&quot;: &quot;200&quot;,&#xa;        &quot;http_error_msg&quot;: &quot;&quot;,&#xa;        &quot;destinataires&quot;: [&#xa;            {&#xa;                &quot;id&quot;: &quot;1&quot;,&#xa;                &quot;id_mail&quot;: &quot;1&quot;,&#xa;                &quot;email&quot;: &quot;nom@domaine.fr&quot;,&#xa;                &quot;type_destinataire&quot;: &quot;to&quot;,&#xa;                &quot;event&quot;: &quot;&quot;,&#xa;                &quot;code&quot;: &quot;0&quot;,&#xa;                &quot;error&quot;: &quot;&quot;,&#xa;                &quot;notification&quot;: &quot;&quot;,&#xa;                &quot;reason&quot;: &quot;&quot;,&#xa;                &quot;description&quot;: &quot;&quot;&#xa;            },&#xa;            {&#xa;                &quot;id&quot;: &quot;2&quot;,&#xa;                &quot;id_mail&quot;: &quot;1&quot;,&#xa;                &quot;email&quot;: &quot;nom@domaine.fr&quot;,&#xa;                &quot;type_destinataire&quot;: &quot;cc&quot;,&#xa;                &quot;event&quot;: &quot;&quot;,&#xa;                &quot;code&quot;: &quot;0&quot;,&#xa;                &quot;error&quot;: &quot;&quot;,&#xa;                &quot;notification&quot;: &quot;&quot;,&#xa;                &quot;reason&quot;: &quot;&quot;,&#xa;                &quot;description&quot;: &quot;&quot;&#xa;            }&#xa;        ]&#xa;    },&#xa;]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-178">
+          <mxGeometry y="34" width="600" height="606" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-181" value="&lt;div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/checklists.php?cible=formateur&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/checklists.php?id=4&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-178">
+          <mxGeometry y="640" width="600" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-182" value="Check" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="930" y="-4460" width="600" height="270" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-183" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-182">
+          <mxGeometry y="26" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-184" value="{&#xa;    &quot;id_check&quot;: &quot;7&quot;,&#xa;    &quot;id_add&quot;: &quot;0&quot;,&#xa;    &quot;id_edit&quot;: &quot;0&quot;,&#xa;    &quot;id_checklist&quot;: &quot;4&quot;,&#xa;    &quot;intitule&quot;: &quot;première étape&quot;,&#xa;    &quot;done&quot;: &quot;1&quot;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-182">
+          <mxGeometry y="34" width="600" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-185" value="&lt;div&gt;&lt;div&gt;POST https://pro.dendreo.com/demo/api/checks.php&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-182">
+          <mxGeometry y="180" width="600" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.703;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-185" target="OZs6EYXmjg9tI3h3_Jkn-180">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-187" value="Administrateurs" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1190" y="-4150" width="600" height="440" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-188" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-187">
+          <mxGeometry y="26" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-189" value="[&#xa;  {&#xa;      &quot;id_administrateur&quot;: &quot;1&quot;,&#xa;      &quot;id_add&quot;: &quot;0&quot;,&#xa;      &quot;id_edit&quot;: &quot;0&quot;,&#xa;      &quot;id_delete&quot;: &quot;1&quot;,&#xa;      &quot;nom&quot;: &quot;DUPONT&quot;,&#xa;      &quot;prenom&quot;: &quot;Mathieu&quot;,&#xa;      &quot;email&quot;: &quot;dupont@dendreo.com&quot;,&#xa;      &quot;login&quot;: &quot;mdupont&quot;,&#xa;      &quot;date_derniere_connexion&quot;: &quot;2017-06-26 14:33:21&quot;,&#xa;      &quot;niveau&quot;: &quot;40&quot;,&#xa;      &quot;fonction&quot;: &quot;&quot;,&#xa;      &quot;telephone&quot;: &quot;&quot;,&#xa;      &quot;use_email&quot;: &quot;0&quot;,&#xa;      &quot;use_signature&quot;: &quot;0&quot;,&#xa;      &quot;nom_complet&quot;: &quot;Mathieu DUPONT&quot;&#xa;  }&#xa;]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-187">
+          <mxGeometry y="34" width="600" height="306" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-190" value="&lt;div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/administrateurs.php&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/administrateurs.php?id=1&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-187">
+          <mxGeometry y="340" width="600" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
