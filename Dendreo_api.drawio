@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T08:12:01.696Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="9vzo_upPbtPl1c5lJeYB" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T09:11:20.071Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="PlRvUvqxrW1fZscFa1xv" version="21.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3703" dy="3529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3341" dy="3319" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -33,7 +33,7 @@
           <mxGeometry y="530" width="600" height="170" as="geometry" />
         </mxCell>
         <mxCell id="ez0UlG1S_WpzTPGZrJlj-5" value="Action de formation" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="370" y="-70" width="600" height="690" as="geometry">
+          <mxGeometry x="370" y="-210" width="600" height="830" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -43,8 +43,8 @@
         <mxCell id="ez0UlG1S_WpzTPGZrJlj-7" value="[&#xa;  {&#xa;    &quot;id_action_de_formation&quot;: &quot;37&quot;,&#xa;    &quot;id_centre_de_formation&quot;: &quot;0&quot;,&#xa;    &quot;id_salle_de_formation&quot;: &quot;0&quot;,&#xa;    &quot;numero&quot;: &quot;1&quot;,&#xa;    &quot;numero_complet&quot;: &quot;&quot;,&#xa;    &quot;numero_comptable&quot;: &quot;&quot;,&#xa;    &quot;type&quot;: &quot;intra&quot;,&#xa;    &quot;intitule&quot;: &quot;Intitulé&quot;,&#xa;    &quot;description&quot;: &quot;Description&quot;,&#xa;    &quot;id_entreprise&quot;: &quot;4&quot;,&#xa;    &quot;id_contact&quot;: &quot;4&quot;,&#xa;    &quot;id_etape_process&quot;: &quot;10&quot;,&#xa;    &quot;date_debut&quot;: &quot;2016-01-20 09:00:00&quot;,&#xa;    &quot;date_fin&quot;: &quot;2016-01-21 16:00:00&quot;,&#xa;    &quot;date_etape_realisation&quot;: &quot;2016-01-23 16:21:44&quot;,&#xa;    &quot;date_etape_archivage&quot;: &quot;2016-02-06 14:17:06&quot;,&#xa;    &quot;date_etape_echec&quot;: &quot;0000-00-00 00:00:00&quot;,&#xa;    &quot;lieu&quot;: &quot;&quot;,&#xa;    &quot;nb_participants_min&quot;: &quot;0&quot;,&#xa;    &quot;nb_participants_max&quot;: &quot;12&quot;,&#xa;    &quot;objectif&quot;: &quot;autre&quot;,&#xa;    &quot;nature&quot;: &quot;2&quot;,&#xa;    &quot;inscription_online&quot;: &quot;1&quot;,&#xa;    &quot;include_in_bpf&quot;: &quot;1&quot;,&#xa;    &quot;total_heures_participants&quot;: &quot;14&quot;,&#xa;    &quot;total_participants&quot;: &quot;10&quot;,&#xa;    &quot;categorie_module_id&quot;: &quot;9&quot;,&#xa;    &quot;ical_url&quot;: &quot;https://public.dendreo.com/demo/ical/nxlfbn57t75shd1q1h3flzsk5hwctyv77Anfhdxsl4tbhrjz8wb1&quot;,&#xa;    &quot;pourcentage_planification&quot;: 70&#xa;  }&#xa;]&#xa;&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ez0UlG1S_WpzTPGZrJlj-5" vertex="1">
           <mxGeometry y="34" width="600" height="596" as="geometry" />
         </mxCell>
-        <mxCell id="ez0UlG1S_WpzTPGZrJlj-25" value="&lt;font color=&quot;#000000&quot;&gt;POST https://pro.dendreo.com/demo/api/participants.php&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="ez0UlG1S_WpzTPGZrJlj-5" vertex="1">
-          <mxGeometry y="630" width="600" height="60" as="geometry" />
+        <mxCell id="ez0UlG1S_WpzTPGZrJlj-25" value="&lt;font color=&quot;#000000&quot;&gt;POST https://pro.dendreo.com/demo/api/participants.php&lt;br&gt;?include=stats,modules,participants,formateurs,entreprises,creneaux,visuel,salles,etapeProcess&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="ez0UlG1S_WpzTPGZrJlj-5" vertex="1">
+          <mxGeometry y="630" width="600" height="200" as="geometry" />
         </mxCell>
         <mxCell id="ez0UlG1S_WpzTPGZrJlj-8" value="LAE" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="390" y="750" width="470" height="440" as="geometry">
@@ -176,7 +176,7 @@
           <mxGeometry x="670" y="-560" width="330" height="140" as="geometry" />
         </mxCell>
         <mxCell id="ez0UlG1S_WpzTPGZrJlj-66" value="Penser à la facturation.&lt;br&gt;Table pivot entre modules et actions de formation?" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1020" y="-1590" width="500" height="240" as="geometry" />
+          <mxGeometry x="950" y="-2260" width="500" height="240" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-0" value="Categorie de Module" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-410" y="-1590" width="600" height="540" as="geometry">
@@ -314,8 +314,8 @@
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.781;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-35" target="ez0UlG1S_WpzTPGZrJlj-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1180" y="-180" />
-              <mxPoint x="839" y="-180" />
+              <mxPoint x="1180" y="-250" />
+              <mxPoint x="839" y="-250" />
             </Array>
           </mxGeometry>
         </mxCell>
