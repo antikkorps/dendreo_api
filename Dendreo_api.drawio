@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T13:15:01.073Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="B7194qCyNGThbwbNnrI2" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T13:48:02.761Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rVkIKQuYIbV3nhuw1yR0" version="21.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="5357" dy="3529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5915" dy="3854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -18,8 +18,17 @@
         <mxCell id="ez0UlG1S_WpzTPGZrJlj-24" value="&lt;font color=&quot;#000000&quot;&gt;GET https://pro.dendreo.com/demo/api/entreprises.php&lt;br&gt;POST https://pro.dendreo.com/demo/api/entreprises.php&lt;br&gt;DELETE https://pro.dendreo.com/demo/api/entreprises.php?id=1&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="640" width="350" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=-0.013;entryY=0.889;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ez0UlG1S_WpzTPGZrJlj-1" target="ez0UlG1S_WpzTPGZrJlj-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="340" />
+              <mxPoint x="-440" y="340" />
+              <mxPoint x="-440" y="-558" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ez0UlG1S_WpzTPGZrJlj-1" value="Partcipant" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-720" y="380" width="600" height="700" as="geometry">
+          <mxGeometry x="-700" y="400" width="600" height="700" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -224,7 +233,7 @@
           <mxGeometry y="370" width="600" height="120" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-13" value="Contacts" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1040" y="-40" width="350" height="380" as="geometry">
+          <mxGeometry x="-1700" y="-70" width="350" height="380" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -237,31 +246,33 @@
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-16" value="&lt;font color=&quot;#000000&quot;&gt;GET https://pro.dendreo.com/demo/api/contacts.php&lt;br&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/contacts.php?id=3&lt;/div&gt;&lt;div&gt;avec l&#39;url de la photo:&amp;nbsp;&amp;amp;include=photo&lt;/div&gt;&lt;div&gt;POST https://pro.dendreo.com/demo/api/contacts.php&lt;br&gt;&lt;/div&gt;&lt;div&gt;DELETE https://pro.dendreo.com/demo/api/contacts.php?id=1&lt;br&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-13">
           <mxGeometry y="280" width="350" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-17" target="OZs6EYXmjg9tI3h3_Jkn-16">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-17" target="OZs6EYXmjg9tI3h3_Jkn-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1710" y="266" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-17" value="&lt;div&gt;Rattacher le contact à une entreprise&lt;/div&gt;&lt;div&gt;Il existe trois façons de rattacher un contact à une entreprise qui sont évaluées dans l&#39;ordre de préférence suivant :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_entreprise : l&#39;existence est vérifiée&lt;/div&gt;&lt;div&gt;entreprise_raison_sociale : une recherche est effectuée sur le champs raison_sociale, le premier résultat est pris en compte&lt;/div&gt;&lt;div&gt;entreprise_id_externe : une recherche est effectuée sur le champs id_externe, seul un résultat exact est pris en compte&lt;/div&gt;&lt;div&gt;Configurer le type de contact&lt;/div&gt;&lt;div&gt;Il est possible de choisir si ce contact sera le contact principal, secondaire, ou facturation de son entreprise.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pour cela, ajoutez un des paramètres suivant à votre requête :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;contact_principal: true&lt;/div&gt;&lt;div&gt;contact_secondaire: true&lt;/div&gt;&lt;div&gt;contact_facturation: true&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1620" y="-66" width="470" height="306" as="geometry" />
+          <mxGeometry x="-2220" y="-120" width="470" height="306" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-18" value="Particulier" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1040" y="-480" width="350" height="380" as="geometry">
+          <mxGeometry x="-1640" y="-500" width="350" height="380" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-19" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-18">
           <mxGeometry y="26" width="350" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-20" value="{&#xa;  &quot;id_contact&quot;: &quot;3&quot;,&#xa;  &quot;id_entreprise&quot;: &quot;3&quot;,&#xa;  &quot;particulier&quot;: &quot;1&quot;,&#xa;  &quot;civilite&quot;: &quot;Mme&quot;,&#xa;  &quot;nom&quot;: &quot;Marue&quot;,&#xa;  &quot;prenom&quot;: &quot;Estelle&quot;,&#xa;  &quot;fonction&quot;: &quot;Responsable Formation&quot;,&#xa;  &quot;telephone_direct&quot;: &quot;01 02 03 04 05&quot;,&#xa;  &quot;portable&quot;: &quot;&quot;,&#xa;  &quot;email&quot;: &quot;marue@domaine.fr&quot;,&#xa;  &quot;id_externe&quot;: &quot;&quot;,&#xa;  &quot;id_participant&quot;: 5&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-18">
-          <mxGeometry y="34" width="350" height="246" as="geometry" />
-        </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-21" value="L&#39;ajout d&#39;un particulier se fait sur la même URL qu&#39;un contact avec la variable particulier égale à 1.&lt;br&gt;&lt;div&gt;POST https://pro.dendreo.com/demo/api/contacts.php&lt;/div&gt;&lt;div&gt;éditer un particulier:&amp;nbsp;&lt;/div&gt;&lt;div&gt;POST https://pro.dendreo.com/demo/api/particuliers.php&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-18">
-          <mxGeometry y="280" width="350" height="100" as="geometry" />
+          <mxGeometry y="34" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-20" value="{&#xa;  &quot;id_contact&quot;: &quot;3&quot;,&#xa;  &quot;id_entreprise&quot;: &quot;3&quot;,&#xa;  &quot;particulier&quot;: &quot;1&quot;,&#xa;  &quot;civilite&quot;: &quot;Mme&quot;,&#xa;  &quot;nom&quot;: &quot;Marue&quot;,&#xa;  &quot;prenom&quot;: &quot;Estelle&quot;,&#xa;  &quot;fonction&quot;: &quot;Responsable Formation&quot;,&#xa;  &quot;telephone_direct&quot;: &quot;01 02 03 04 05&quot;,&#xa;  &quot;portable&quot;: &quot;&quot;,&#xa;  &quot;email&quot;: &quot;marue@domaine.fr&quot;,&#xa;  &quot;id_externe&quot;: &quot;&quot;,&#xa;  &quot;id_participant&quot;: 5&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-18">
+          <mxGeometry y="134" width="350" height="246" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-22" target="OZs6EYXmjg9tI3h3_Jkn-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-22" value="&lt;div&gt;un contact qui n&#39;est pas rattaché à une entreprise ou qui se forme hors du cadre de l&#39;entreprise&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1600" y="-460" width="470" height="80" as="geometry" />
+          <mxGeometry x="-2270" y="-484" width="470" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.002;entryY=0.963;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-23" target="ez0UlG1S_WpzTPGZrJlj-3">
           <mxGeometry relative="1" as="geometry" />
@@ -383,16 +394,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-49" value="&lt;div&gt;Il est possible de filtrer les actions de formation via les paramètres suivant :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nb_jours : les actions de formation ajoutées et/ou modifiées sur les N derniers jours&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/actions_de_formation.php?nb_jours=3&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_entreprise : les actions de formation INTRA liées à l&#39;entreprise sélectionnée&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/actions_de_formation.php?type=intra&amp;amp;id_entreprise=38&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_module : les actions de formation qui contiennent le module sélectionné&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/actions_de_formation.php?id_module=657&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_salle_de_formation : les actions de formation qui ont au moins un lieu correspondant à cette salle&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/actions_de_formation.php?id_salle_de_formation=2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_formateur : les actions de formation qui ont ce formateur staffé à au moins 1 créneau&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/actions_de_formation.php?id_formateur=56&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;numero_complet : l&#39;action de formation portant ce numero complet&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/actions_de_formation.php?numero_complet=ADF_2019001&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Il est enfin possible de filtrer les actions de formations sur les attributs intitule ou numero_complet via l&#39;argument search (recherche partielle).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Attention, par défaut, seules les actions de formation de la dernière année sont retournées !&lt;/div&gt;&lt;div&gt;Mais, comme indiqué dans la section recherche/filtre, vous pouvez filtrer les Actions de Formation selon leur date de début ou de fin pour étendre cette sélection ou affiner votre recherche.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/actions_de_formation.php?ended_after=2020-12-31&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Requête HTTP&lt;/div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/actions_de_formation.php&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-640" y="-400" width="870" height="580" as="geometry" />
+          <mxGeometry x="-420" y="-330" width="710" height="580" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.466;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-53" target="OZs6EYXmjg9tI3h3_Jkn-57">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-480" y="-1470" />
+              <mxPoint x="-480" y="-1190" />
+              <mxPoint x="-1350" y="-1190" />
+              <mxPoint x="-1350" y="-904" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-53" value="&lt;div&gt;Si vous souhaitez afficher un petit widget sur votre site web qui indique par exemple &quot;Nos 3 prochaines sessions de formation&quot;, vous pouvez utiliser cet endpoint spécial qui a pour effet de vous retourner une liste pré-compilées de prochaines Actions de Formation.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Il ne s&#39;agit pas exactement de l&#39;objet Action de Formation, le retour est un mélange d&#39;informations simples du Module, et de l&#39;Action de Formation, ainsi que certaines infos concernant le prix, le remplissage et le lieux de la session.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Cet endpoint a l&#39;avantage de filtrer automatiquement les Modules et Actions de Formation pour ne prendre en compte uniquement :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;les Modules qui sont présents dans votre Catalogue (pas les modules Hors Catalogue)&lt;/div&gt;&lt;div&gt;les Actions de Formation qui sont configurées pour s&#39;afficher sur votre Catalogue&lt;/div&gt;&lt;div&gt;les Actions de Formation mono-module (fonctionnement actuel de notre option Catalogue public)&lt;/div&gt;&lt;div&gt;les Actions de Formation dans le futur uniquement&lt;/div&gt;&lt;div&gt;les Actions de Formation INTER uniquement (sauf réglage explicite différent)&lt;/div&gt;&lt;div&gt;les Actions de Formation qui sont dans des étapes prévisionnelles uniquement&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Notez que l&#39;endpoint n&#39;est pas actions_de_formation !&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/catalogue_prochaines_sessions.php&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Il est possible de récupérer l&#39;URL du visuel associé à chaque Module, dans la réponse, en rajoutant include=visuel à votre requête.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : `GET https://pro.dendreo.com/demo/api/catalogue_prochaines_sessions.php?include=visuel&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Il est possible de récupérer la moyenne de satisfaction associé à chaque Module, dans la réponse, en rajoutant include=satisfaction à votre requête.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : `GET https://pro.dendreo.com/demo/api/catalogue_prochaines_sessions.php?include=satisfaction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1250" y="-1100" width="830" height="520" as="geometry" />
+          <mxGeometry x="-1330" y="-1730" width="830" height="520" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-54" value="Catalogue public" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-320" y="-1280" width="520" height="580" as="geometry">
+          <mxGeometry x="-1270" y="-1164.5" width="520" height="580" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -405,8 +423,15 @@
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-58" value="&lt;div&gt;GET https://pro.dendreo.com/demo/api/catalogue_prochaines_sessions.php&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-54">
           <mxGeometry y="520" width="520" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ez0UlG1S_WpzTPGZrJlj-41" target="OZs6EYXmjg9tI3h3_Jkn-57">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="OZs6EYXmjg9tI3h3_Jkn-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="-1340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="340" y="-1350" />
+              <mxPoint x="-440" y="-1350" />
+              <mxPoint x="-440" y="-887" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-65" target="OZs6EYXmjg9tI3h3_Jkn-72">
           <mxGeometry relative="1" as="geometry" />
@@ -457,10 +482,10 @@
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-80" target="OZs6EYXmjg9tI3h3_Jkn-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-80" value="&lt;div&gt;&lt;div&gt;Attention, la sélection d&#39;une action de formation, via id_action_de_formation, id_participant ou id_entreprise est obligatoire.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Il est possible d&#39;ajouter à la réponse les informations du participant via le paramètre include=participant.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/laps.php?id_entreprise=371&amp;amp;include=participant&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Il est également possible d&#39;enrichir les informations de l&#39;inscription d&#39;un participant via le paramètre include=lmps.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/laps.php?id_entreprise=371&amp;amp;include=lmps&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Vous pouvez aussi utiliser les 2 paramètres conjointement :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/laps.php?id_entreprise=371&amp;amp;include=lmps,participant&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Enfin, si vous voulez encore plus de détail vous pouvez inclure les lcps (créneaux) :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/laps.php?id_entreprise=371&amp;amp;include=lcps&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-80" value="&lt;div&gt;&lt;div&gt;Attention, la sélection d&#39;une action de formation, via id_action_de_formation, id_participant ou id_entreprise est obligatoire.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Il est possible d&#39;ajouter à la réponse les informations du participant via le paramètre include=participant.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/laps.php?id_entreprise=371&amp;amp;include=participant&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Il est également possible d&#39;enrichir les informations de l&#39;inscription d&#39;un participant via le paramètre include=lmps.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/laps.php?id_entreprise=371&amp;amp;include=lmps&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Vous pouvez aussi utiliser les 2 paramètres conjointement :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/laps.php?id_entreprise=371&amp;amp;include=lmps,participant&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Enfin, si vous voulez encore plus de détail vous pouvez inclure les lcps (créneaux) :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exemple : GET https://pro.dendreo.com/demo/api/laps.php?id_entreprise=371&amp;amp;include=lcps&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 20px;&quot;&gt;Note importante : tous les Lmp sont créés en même temps que les Laps. C&#39;est à dire que dès qu&#39;un Participant est ajouté à une Action de Formation (Lap), tous les Lmp relatifs aux Modules (Lam) sont créés.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1555" y="1140" width="630" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-81" value="Inscription participant" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-81" value="Inscription participant (LAP)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-827" y="1160" width="600" height="700" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -496,7 +521,7 @@
           <mxGeometry x="-3140" y="1850" width="150" height="170" as="geometry" />
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-94" value="Questionnaires de Satisfaction" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1890" y="320" width="600" height="730" as="geometry">
+          <mxGeometry x="-1870" y="360" width="600" height="730" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -545,6 +570,102 @@
         </mxCell>
         <mxCell id="OZs6EYXmjg9tI3h3_Jkn-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-103" target="OZs6EYXmjg9tI3h3_Jkn-106">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-109" value="LAMS lien entre action de formation et module" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-3140" y="2550" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-110" value="LAM" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1190" y="-560" width="660" height="920" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-111" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-110">
+          <mxGeometry y="26" width="660" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-112" value="[&#xa;    {&#xa;        &quot;id_lam&quot;: &quot;1195&quot;,&#xa;        &quot;date_add&quot;: &quot;2023-04-25 16:31:24&quot;,&#xa;        &quot;id_add&quot;: &quot;0&quot;,&#xa;        &quot;date_edit&quot;: &quot;2023-04-26 10:53:55&quot;,&#xa;        &quot;id_edit&quot;: &quot;0&quot;,&#xa;        &quot;id_action_de_formation&quot;: &quot;882&quot;,&#xa;        &quot;id_module&quot;: &quot;175&quot;,&#xa;        &quot;id_categorie_produit&quot;: &quot;1&quot;,&#xa;        &quot;intitule&quot;: &quot;Cours Laravel&quot;,&#xa;        &quot;date_debut&quot;: &quot;2023-04-26 09:00:00&quot;,&#xa;        &quot;date_fin&quot;: &quot;2023-04-27 17:00:00&quot;,&#xa;        &quot;duree&quot;: &quot;50400&quot;,&#xa;        &quot;prix&quot;: &quot;500.0000&quot;,&#xa;        &quot;prix_edof&quot;: &quot;&quot;,&#xa;        &quot;prix_achat&quot;: &quot;0.0000&quot;,&#xa;        &quot;id_shadow_lam&quot;: &quot;0&quot;,&#xa;        &quot;dual_lam_id&quot;: &quot;&quot;,&#xa;        &quot;quantite&quot;: &quot;1.00&quot;,&#xa;        &quot;id_salle_de_formation&quot;: &quot;0&quot;,&#xa;        &quot;duree_planifiee&quot;: &quot;&quot;,&#xa;        &quot;mode_organisation&quot;: &quot;presentiel&quot;,&#xa;        &quot;satisfaction_evaluable&quot;: &quot;1&quot;,&#xa;        &quot;evaluation_evaluable&quot;: &quot;1&quot;,&#xa;        &quot;duree_de_validite&quot;: &quot;0&quot;,&#xa;        &quot;visible_on_cp_in_adf_mm&quot;: &quot;0&quot;,&#xa;        &quot;dokeos_training_gate_id&quot;: &quot;&quot;,&#xa;        &quot;master_lam_id&quot;: &quot;&quot;,&#xa;        &quot;nb_participants_min&quot;: &quot;1&quot;,&#xa;        &quot;nb_participants_max&quot;: &quot;10&quot;,&#xa;        &quot;intitule_module&quot;: &quot;Cours Laravel&quot;,&#xa;        &quot;description&quot;: &quot;&quot;,&#xa;        &quot;formateurs&quot;: [&#xa;            {&#xa;                &quot;id_laf&quot;: &quot;750&quot;,&#xa;                &quot;id_lmf&quot;: &quot;1066&quot;,&#xa;                &quot;id_formateur&quot;: &quot;8&quot;,&#xa;                &quot;civilite&quot;: &quot;M.&quot;,&#xa;                &quot;nom&quot;: &quot;Banksto&quot;,&#xa;                &quot;prenom&quot;: &quot;Arlen&quot;,&#xa;                &quot;email_pro&quot;: &quot;arlen.bankston@lithespeed.com&quot;,&#xa;                &quot;email_perso&quot;: &quot;&quot;&#xa;            }&#xa;        ]&#xa;    }&#xa;]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-110">
+          <mxGeometry y="34" width="660" height="686" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-113" value="&lt;div&gt;&lt;div&gt;Afficher les programmations&lt;/div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/lams.php&lt;/div&gt;&lt;div&gt;Afficher une programmation&lt;/div&gt;&lt;/div&gt;&lt;div&gt;GET https://pro.dendreo.com/demo/api/lams.php?id=474&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ajouter une programmation&lt;/div&gt;&lt;div&gt;&lt;div&gt;POST https://pro.dendreo.com/demo/api/lams.php&lt;/div&gt;&lt;div&gt;Supprimer une programmation&lt;/div&gt;&lt;/div&gt;&lt;div&gt;DELETE https://pro.dendreo.com/demo/api/lams.php&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-110">
+          <mxGeometry y="720" width="660" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.008;entryY=0.727;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ez0UlG1S_WpzTPGZrJlj-25" target="OZs6EYXmjg9tI3h3_Jkn-112">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="470" />
+              <mxPoint x="340" y="260" />
+              <mxPoint x="-75" y="260" />
+              <mxPoint x="-75" y="300" />
+              <mxPoint x="-460" y="300" />
+              <mxPoint x="-460" y="-7" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.082;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ez0UlG1S_WpzTPGZrJlj-42" target="OZs6EYXmjg9tI3h3_Jkn-112">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="-375" />
+              <mxPoint x="-90" y="-420" />
+              <mxPoint x="-530" y="-420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.878;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ez0UlG1S_WpzTPGZrJlj-22" target="ez0UlG1S_WpzTPGZrJlj-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="1130" />
+              <mxPoint x="-160" y="1130" />
+              <mxPoint x="-160" y="1340" />
+              <mxPoint x="897" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.345;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-118" target="ez0UlG1S_WpzTPGZrJlj-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-202" y="-660" />
+              <mxPoint x="-493" y="-660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-118" value="LAP" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-320" y="-1170" width="470" height="440" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-120" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-118">
+          <mxGeometry y="26" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-121" value="A Trouver" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-118">
+          <mxGeometry y="34" width="470" height="286" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-122" value="Lien entre action de formation et participant" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OZs6EYXmjg9tI3h3_Jkn-118">
+          <mxGeometry y="320" width="470" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.598;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-121" target="ez0UlG1S_WpzTPGZrJlj-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.577;entryY=1.06;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-16" target="ez0UlG1S_WpzTPGZrJlj-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2410" y="235" />
+              <mxPoint x="-2410" y="1980" />
+              <mxPoint x="150" y="1980" />
+              <mxPoint x="150" y="1020" />
+              <mxPoint x="152" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZs6EYXmjg9tI3h3_Jkn-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZs6EYXmjg9tI3h3_Jkn-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-720" y="1160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1240" y="260" />
+              <mxPoint x="-1240" y="1080" />
+              <mxPoint x="-720" y="1080" />
+              <mxPoint x="-720" y="1160" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
